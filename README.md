@@ -19,6 +19,10 @@ git clone git@github.com:gomzyakov/laravel-blog.git
 ```
 
 ```bash
+mv .env.local .env 
+```
+
+```bash
 docker compose build --no-cache
 ```
 
@@ -50,4 +54,5 @@ docker compose exec app ./artisan make:filament-user
 ```
 
 And open http://127.0.0.1:8000
+Login admin http://127.0.0.1:8000/admin/login
 
